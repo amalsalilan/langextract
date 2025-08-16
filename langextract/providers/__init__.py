@@ -43,6 +43,7 @@ def load_builtins_once() -> None:
 
   # pylint: disable=import-outside-toplevel
   from langextract.providers import gemini  # noqa: F401
+  from langextract.providers import lmstudio  # noqa: F401
   from langextract.providers import ollama  # noqa: F401
 
   try:
